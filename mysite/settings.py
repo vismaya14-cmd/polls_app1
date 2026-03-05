@@ -24,7 +24,7 @@ SECRET_KEY = 'django-insecure-hqymyv)pzb#!5q^1e-vbucgqh%9tntgl-%@v*#@mcy&8&5v2-5
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['polls-app1.onrender.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost','polls-app1.onrender.com']
 
 CSRF_TRUSTED_ORIGINS = [
     "https://polls-app1.onrender.com"
